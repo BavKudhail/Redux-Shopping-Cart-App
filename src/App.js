@@ -1,13 +1,13 @@
-import React from "react";
-import "./App.css";
-import Auth from "./components/Auth";
-import Layout from "./components/Layout";
+import React from 'react';
+import './App.css';
+import Auth from './components/Auth';
+import Layout from './components/Layout';
 
 function App() {
   return (
-    <div className="App">
+    <div className='App'>
       <Auth />
-      {/* <Layout /> */}
+      <Layout />
     </div>
   );
 }
